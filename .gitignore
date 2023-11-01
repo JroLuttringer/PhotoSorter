@@ -1,0 +1,19 @@
+# standard gitignore from MacOS Python projects
+#
+# Compiled Python files
+*.pyc
+
+# Compiled C extensions
+*.so
+
+# macOS system files that should never be committed
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+
+# Python virtual environment
+venv/
+
+.env
